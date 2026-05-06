@@ -1,0 +1,16 @@
+{
+  "dataset_dir": "E:\\img_pro\\weapon_detection",
+  "class_names": [
+    "gun",
+    "knife"
+  ],
+  "train_samples": 971,
+  "val_samples": 143,
+  "epochs": 5,
+  "batch_size": 32,
+  "img_size": 224,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "device": "cuda",
+  "best_val_acc": 0.972028
+}
